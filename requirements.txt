@@ -9,3 +9,4 @@ PyPDF2
 sentence-transformers
 wordcloud
 plotly
+huggingface_hub==0.16.4
