@@ -1,10 +1,18 @@
+
 @echo off
 cd /d %~dp0
 
-:: Activate the virtual environment
-call venv\Scripts\activate
+:: Check if venv exists
+IF NOT EXIST "venv\Scripts\activate.bat" (
+    echo Virtual environment not found! Please create it first.
+    pause
+    exit /b
+)
 
-:: Ensure spaCy model is downloaded
+:: Activate virtual environment
+call venv\Scripts\activate.bat
+
+:: Auto-download spaCy model if missing
 python -m spacy download en_core_web_sm
 
 :: Launch the Streamlit app
