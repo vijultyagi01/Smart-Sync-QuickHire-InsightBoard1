@@ -63,7 +63,9 @@
     a. cd Smart-Sync-QuickHire-InsightBoard1
     b. streamlit run project.py
 
-      
+      # cd C:\Users\Admin\Desktop\SmartHireApp
+      # pip install -r requirements.txt
+      # streamlit run project.py
 
 
 
