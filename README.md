@@ -68,6 +68,11 @@
       # streamlit run project.py
 
 
+      2.
+      cd "C:\Users\Admin\Downloads\autorag (7)\autorag"
+      streamlit run myapps.py
+      
+
 
 
 
