@@ -67,3 +67,9 @@ Built using **Streamlit** — sleek, fast, and 100% local (no cloud dependencies
 ```bash
 cd "C:\Users\Admin\Downloads\autorag (7)\autorag"
 streamlit run myapps.py
+### ✨ 2. Candidate Course Recommender (Skill Gap → Course Recommendations)
+
+```bash
+cd "C:\Users\Admin\Downloads"
+streamlit run myapps2.py
+
