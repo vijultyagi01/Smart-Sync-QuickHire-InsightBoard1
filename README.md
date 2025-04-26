@@ -62,7 +62,7 @@ bash
 Copy
 Edit
 cd "C:\Users\Admin\Downloads\autorag (7)\autorag"
- streamlit run myapps.py
+streamlit run myapps.py
 
 2.Candidate Course Recommender (Skill Gap → Course Recommendations)
 
