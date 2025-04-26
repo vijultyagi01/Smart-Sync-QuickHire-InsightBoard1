@@ -1,79 +1,74 @@
-# ⚙️ Smart-Sync-QuickHire-InsightBoard
+⚙️ Smart-Sync-QuickHire + Skill Gap Course Recommender Suite
+🔍 AI-Powered Resume–JD Matcher and Dynamic Skill Gap Filler
+“Sync Talent. Fill Gaps. Hire Smarter. Faster. Better.”
 
-> 🔍 AI-Powered Resume–Job Matcher with Dynamic Skill Analysis, Candidate Ranking & Interactive Dashboards  
-> _“Sync Talent. Rank Smart. Hire Faster.”_
+🚀 Project Overview
+The Smart-Sync-QuickHire + Skill Gap Course Recommender Suite is a complete AI-powered hiring platform that:
 
----
+Matches multiple candidate CVs against job descriptions (JDs)
 
-## 🚀 Project Overview
+Identifies skill gaps intelligently
 
-**Smart-Sync-QuickHire-InsightBoard** is an advanced AI-driven platform that intelligently matches multiple CVs to multiple job descriptions (JDs), ranks candidates, identifies skill gaps, and presents interactive dashboards for recruiters – all in a sleek Streamlit web app.
+Recommends personalized online courses to fill missing skills
 
----
+Generates individual PDF reports for candidates
 
-## 💡 Key Features
+Provides an interactive dashboard for recruiter insights
 
-✅ **Multi-CV vs Multi-JD Matching**  
-✅ **BERT + TF-IDF Matching Engine**  
-✅ **Skill Proficiency Estimation (Beginner to Advanced)**  
-✅ **Feature Detection (LinkedIn, GitHub, Experience, etc.)**  
-✅ **Customizable Weight Sliders for Ranking Logic**  
-✅ **Interactive Data Dashboard (InsightBoard)**  
-✅ **Email Notification to Selected & Rejected**  
-✅ **Interview Slot Booking Panel**  
-✅ **Zero Paid APIs – Fully Local + Free**  
+All built using sleek, powerful Streamlit web apps.
 
----
+💡 Key Features
+✅ Multi-CV to JD Skill Matching
+✅ TF-IDF and NLP-Based Skill Extraction
+✅ Skill Gap Detection and Reporting
+✅ Personalized Course Recommendations
+✅ Candidate-Specific PDF Report Generation (with clickable links)
+✅ Bulk Download of All Reports as ZIP
+✅ Interactive Dashboards for Recruiters
+✅ Interview Slot Booking System
+✅ Email Notification System (Mocked)
+✅ 100% Local Processing — No Paid APIs
 
-## 📊 InsightBoard Dashboard
+📊 Dashboard Insights
 
-| Section                     | Description                                          |
-|----------------------- ---  |------------------------------------------------------- 
-| 📌 Summary Metrics         | Total CVs processed, Average Match & Final Scores     |
-| 📉 Top Missing Skills      | Bar chart of frequently missing JD skills             |
-| 📈 Final Score Histogram   | Distribution of candidate final scores                |
-| 🧩 Feature Presence Charts | Visuals for LinkedIn, GitHub, Experience presence     |
-| ☁️ Skill Word Cloud        | Most common extracted skills across resumes           |
-| ❌ Skill Gap Frequency     | Skill demand vs supply comparison                     |
+Section	Description
+📌 Summary Metrics	Total CVs processed, Matched Skills, Final Rankings
+📉 Top Missing Skills	Most common missing skills across candidates
+📈 Candidate Performance	Matched skill counts per candidate (visualized)
+❌ Skill Gap Analysis	Frequently missing skills across all CVs
+🧠 Smart Skill Search	Filter candidates by selected skills
+📦 Download Hub	Individual or bulk download of candidate PDF reports
+🛠️ Tech Stack
+Language: Python 3.8+
 
----
+Frontend Framework: Streamlit
 
-## 🛠️ Tech Stack
+Natural Language Processing: spaCy, TF-IDF
 
-- **Language:** Python
-- **Frontend:** Streamlit
-- **NLP & ML:** spaCy, Sentence-BERT, TF-IDF
-- **Visualization:** Plotly, Seaborn, Matplotlib, WordCloud
-- **Parsing:** PyPDF2
-- **Email:** SMTP (Gmail)
+Visualization: Plotly, pandas
 
----
+File Parsing: pdfplumber
 
-🔧 Setup Instructions
+PDF Generation: FPDF
 
+Concurrency: ThreadPoolExecutor (for faster CV processing)
 
+Encoding: Base64 (for secure file downloads)
 
-     1.Install dependencies:
-                pip install -r requirements.txt
-     2.Run the app:
-             streamlit run project.py
-     3.Optional:
-             If all_skills.txt is not in the project folder, make sure to place it there or it will be auto-copied from your Downloads folder (if found).
+▶️ Running the Applications
+1.Smart-Sync-QuickHire (Resume Matcher + Dashboard)
 
-    a. cd Smart-Sync-QuickHire-InsightBoard1
-    b. streamlit run project.py
+bash
+Copy
+Edit
+cd "C:\Users\Admin\Downloads\autorag (7)\autorag"
+ streamlit run myapps.py
 
-      # cd C:\Users\Admin\Desktop\SmartHireApp
-      # pip install -r requirements.txt
-      # streamlit run project.py
-        2.
-      cd "C:\Users\Admin\Downloads\autorag (7)\autorag"
-      streamlit run myapps.py
+2.Candidate Course Recommender (Skill Gap → Course Recommendations)
 
-
-
-
-
-
-
+bash
+Copy
+Edit
+cd C:\Users\Admin\Downloads\
+streamlit run myapps2.py
 
